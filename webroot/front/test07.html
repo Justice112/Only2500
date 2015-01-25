@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6"><![endif]-->
+<!--[if IE 7]><html class="ie7"><![endif]-->
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie8"><![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>上海工程技术大学 汽车工程学院考试系统</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="../css/base.css" />
+<script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/modernizr-2.7.1.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<header id="header">
+		<div class="inner">
+			<h1 class="logo"><a href="/">上海工程技术大学 汽车工程学院考试系统</a></h1>
+			<div class="top cf"> <a href="/users/logout" class="">退出系统</a>
+				<p>欢迎<strong>冯嘉祺</strong>登录</p>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="test">
+		<div class="inner cf">
+			<div class="fl">
+				<h2>当前考试科目为：<strong>计算机一级</strong></h2>
+				<p class="test_time">考试时间共:<strong>90</strong>分钟</p>
+				<p class="count_down">距考试还有:<strong>60</strong>分钟</p>
+				<p class="rest_question">您还有<strong>12</strong>未答</p>
+			</div>
+			<div class="fr">
+				<h3>第<span>7</span>题，题目类型：<strong>单选题</strong>，题目分值：<strong>1</strong></h3>
+				<p>最大地面制动力取决于</p>
+				<p class="description">请答题</p>
+				<form>
+					<label class="input_radio"><input type="radio">A：制动器制动力</label>
+					<label class="input_radio"><input type="radio">B：附着率</label>
+					<label class="input_radio"><input type="radio">C：附着力</label>
+					<label class="input_radio"><input type="radio">D：滑动率</label>
+					
+					<div class="btnbox cf">
+						<a href="test06.html" class="btn1 prev">上一题</a>
+						<a href="test08.html" class="btn1 submit">下一题</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function(e) {
+		$('tbody tr').click(function(e) {
+			$(this).find('input').prop('checked',true);
+		});
+	});
+</script>
+	<footer id="footer">
+		<div class="inner cf">
+			<p>copyright @ MYV7.com 复格教育 提供技术支持</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

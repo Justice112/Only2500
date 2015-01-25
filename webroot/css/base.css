@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,iframe,fieldset,legend,label,button,input,textarea,th,td,figure{margin:0;padding:0}body,button,input,select,textarea{font:12px/1.5 Helvetica,'微软雅黑',Arial,sans-serif}fieldset,img{border:none}address,cite,dfn,em,var{font-style:normal}textarea{resize:none}ins{text-decoration:none}del{text-decoration:line-through}:focus{outline:0}h1,h2,h3,h4,h5,h6{font-size:100%}sup{vertical-align:text-top}sub{vertical-align:text-bottom}ul,ol{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}
+.cf {*zoom:1}
+.cf:after {clear:both;content:"\20";height:0;display:block}
+a {color:#666; text-decoration:none}
+a:hover {color:#333; text-decoration:none; cursor:pointer}
+a:active {text-shadow:none}
+.normal {font-weight:normal}
+.underline,.underline:hover {text-decoration:underline}
+.colL {float:left}
+.colR {float:right}
+body {color:#666; position:relative; overflow-y:scroll}
+.ie7 body {overflow:visible}
+.ie7 body,.ie7 button,.ie7 input,.ie7 select,.ie7 textarea{font:12px/1.5 '微软雅黑',Helvetica,Arial,sans-serif}
+#wrap {background:url(img/bodyBG.jpg) top repeat-x #FFF}
+.inner {width:1000px; margin:auto; position:relative}
+
+/* IE placeholder */
+.placeholder {color:#aaa!important}
+::-webkit-input-placeholder {color:#ccc; font-weight:normal}
+
+
+/*header*/
+header .logo {width:999px; height:101px}
+header .logo a {width:999px; height:101px; display:block; background:url(img/logo.jpg); text-indent:-9999px}
+header .top p {float:right; color:#fff; display:block}
+header .top p strong {margin:0 5px}
+header .top a {float:right; display:block; color:#fff; margin-left:20px}
+
+/*登录*/
+.login .inner {}
+.loginbox {float:right; margin-right:40px; padding:15px; border:1px solid #999; border-radius:4px; background:#efefef; margin:50px 50px 0 0}
+.loginbox h2 {font-size:18px; color:#000; margin-bottom:10px; color:#039}
+.input_text {border:#ccc 1px solid; line-height:18px; height:18px; padding:5px; border-radius:4px; background:#fff}
+.input_label {color:#111; margin-right:15px; letter-spacing:4px; font-size:14px}
+.mb10 {margin-bottom:10px}
+.input_radio input {margin-right:5px}
+.input_radio {margin-right:10px}
+.loginform .input_radio {float:right}
+.loginform .btn1 {width:2em; margin:auto}
+
+
+/*footer*/
+footer .inner {background:#069}
+footer p {float:right; color:#fff; line-height:18px; padding:5px; display:block}
+
+/*按钮*/
+.btn1 {display:block; line-height:18px; padding:5px 10px; background:#000; color:#fff; border-radius:4px; font-size:12px; width:auto}
+.btn1:hover {color:#fff; background:#333}
+.btn2 {display:block; line-height:18px; padding:5px 10px; background:#14a; color:#fff; border-radius:4px; font-size:12px; width:auto; float:left}
+.btn2:hover {color:#fff; background:#14a}
+
+/*准备考试*/
+.ready .fl {float:left; border:1px solid #666; border-radius:4px; background:#efefef; width:250px; overflow:hidden; margin-top:20px}
+.ready .fl h2 {display:block; font-size:16px; color:#039; margin-bottom:10px; background:#ccc; color:#039; padding:10px 15px}
+.ready .fl ol {list-style:none; margin:15px; display:block}
+.ready .fl ol li {display:block; color:#999; margin-bottom:5px; font-size:14px}
+.ready .fl ol li.curr {color:#000}
+.ready .fr {float:right; border:1px solid #666; border-radius:4px; background:#efefef; width:730px; overflow:hidden; margin-top:20px}
+.ready .fr h2 {display:block; font-size:16px; color:#039; margin-bottom:10px; background:#ccc; color:#039; padding:10px 15px}
+.ready .fr dl {display:block; margin:15px}
+.ready .fr dt {display:block; width:50px; color:#000; font-weight:bold; line-height:26px; height:26px; font-size:12px; color:#333}
+.ready .fr dd {display:block; color:#000; line-height:18px; margin-top:-26px; margin-left:50px; line-height:26px; font-size:12px; color:#039}
+.ready .fr thead td {background:#ddd; color:#000; font-weight:bold}
+.ready .fr td {padding:10px; border:1px solid #000}
+.ready .fr table {width:700px; margin:15px}
+.ready .fr label {color:#000}
+.ready .btn1 {width:4em; margin:auto; margin-bottom:20px}
+
+
+
+/*开始考试*/
+.test .fl {float:left; border:1px solid #666; border-radius:4px; background:#efefef; width:250px; overflow:hidden; margin-top:20px}
+.test .fl h2 {display:block; font-size:16px; color:#039; margin-bottom:10px; background:#ccc; color:#039; padding:10px 15px}
+.test .fl p {margin:15px}
+.test .fl p strong {color:#039; padding:0 5px}
+.test .fr {float:right; border:1px solid #666; border-radius:4px; background:#efefef; width:730px; overflow:hidden; margin-top:20px}
+.test .fr h3 {display:block; font-size:16px; color:#039; margin-bottom:10px; background:#ccc; color:#000; padding:5px 15px; font-weight:normal; line-height:26px}
+.test .fr h3 strong {color:#039}
+.test .fr h3 span {display:inline-block; height:26px; width:26px; text-align:center; border-radius:100%; background:#333; color:#fff; margin:0 5px}
+.test .fr p {margin:15px; font-size:14px; color:#000}
+.test .fr p.description {font-size:18px; color:#999}
+.test .fr .input_radio {display:block; margin:5px 25px; padding:5px; border:1px solid #999; border-radius:4px; color:#000}
+.test .fr .btn1 {width:3em; float:right; margin-right:15px}
+.test .fr .btnbox {margin:15px 0}
+.test .fr img {display:block; max-width:100%; margin:auto}
+
+/*error*/
+.error_info {color:#f00}
